@@ -1,0 +1,117 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.header {
+    background-image: url(./images/bg-header-desktop.svg);
+    text-align: center;
+    padding: 20px 0;
+   
+}
+
+.item {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    border-radius: 1px solid #464242;
+}
+.img{
+   
+    width: 60px;
+}
+.head{
+    margin-top: 20px;
+  margin-left: 100px;
+    
+}
+.item h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.item .company {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.item .badge {
+    display: inline-block;
+    background-color: #5ba4a4;
+    color: white;
+    border-radius: 12px;
+    padding: 5px 10px;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.item .new-badge {
+    background-color: #5ba4a4;
+}
+
+.item .featured-badge {
+    background-color: #2c3e50;
+}
+
+.item .details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.item .details span {
+    margin-right: 20px;
+}
+/* .tags{
+    float: right;
+} */
+
+.item .tags {
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.item .tag {
+    background-color: #eef6f6;
+    color: #5ba4a4;
+    border-radius: 12px;
+    padding: 5px 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.item .tag:hover {
+    background-color: #5ba4a4;
+    color: white;
+}
+
+.attribution {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 12px;
+    color: #888;
+}
+
+.attribution a {
+    color: #5ba4a4;
+}
