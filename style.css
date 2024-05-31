@@ -19,99 +19,76 @@ body {
    
 }
 
-.item {
-    background-color: #fff;
+
+/* Add this CSS to your style.css file */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.job-item {
     display: flex;
     flex-direction: column;
-    border-radius: 1px solid #464242;
-}
-.img{
-   
-    width: 60px;
-}
-.head{
-    margin-top: 20px;
-  margin-left: 100px;
-    
-}
-.item h2 {
-    margin: 0;
-    font-size: 18px;
-    color: #333;
+    background: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.item .company {
-    font-size: 14px;
-    color: #888;
-    margin-bottom: 10px;
+.job-item-header {
+    display: flex;
+    align-items: center;
 }
 
-.item .badge {
-    display: inline-block;
-    background-color: #5ba4a4;
-    color: white;
-    border-radius: 12px;
-    padding: 5px 10px;
-    font-size: 12px;
+.job-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.job-info {
+    flex-grow: 1;
+}
+
+.job-company {
+    display: flex;
+    align-items: center;
+}
+
+.job-company span {
     margin-right: 10px;
 }
 
-.item .new-badge {
-    background-color: #5ba4a4;
-}
-
-.item .featured-badge {
-    background-color: #2c3e50;
-}
-
-.item .details {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin: 10px 0;
-    font-size: 14px;
-    color: #555;
-}
-
-.item .details span {
-    margin-right: 20px;
-}
-/* .tags{
-    float: right;
-} */
-
-.item .tags {
-    
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-.item .tag {
-    background-color: #eef6f6;
-    color: #5ba4a4;
-    border-radius: 12px;
-    padding: 5px 10px;
-    font-size: 12px;
-    cursor: pointer;
-}
-
-.item .tag:hover {
+.new, .featured {
     background-color: #5ba4a4;
     color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin-left: 10px;
 }
 
-.attribution {
-    text-align: center;
-    margin-top: 40px;
-    font-size: 12px;
-    color: #888;
+.job-position {
+    margin: 10px 0;
+    font-size: 1.2em;
 }
 
-.attribution a {
+.job-details span {
+    margin-right: 5px;
+}
+
+.job-tags {
+    margin-top: 20px;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #effafa;
     color: #5ba4a4;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
 }
